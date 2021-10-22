@@ -76,7 +76,7 @@ const ReadView = () => {
 				alignItems='center'>
 				<div className='mainHeader'>
 					<h1>Welcome to Olive Oils </h1>
-					<h3>The following data is from your current Wells </h3>
+					<h4>The following data is from your current Wells </h4>
 				</div>
 				<TableContainer
 					component={Paper}
