@@ -69,6 +69,7 @@ const ReadView = () => {
 				closed={() => setDeleteWarning(false)}
 			/>
 			<Grid
+				className='viewTable'
 				container
 				direction='column'
 				justifyContent='center'
@@ -80,11 +81,10 @@ const ReadView = () => {
 				<TableContainer
 					component={Paper}
 					sx={{
-						maxWidth: 1200,
-						minWidth: 300,
+						maxWidth: 1000,
+						minWidth: 100,
 						maxHeight: 500,
-						minHeight: 200,
-						mx: 2,
+						minHeight: 100,
 					}}>
 					<Table stickyHeader>
 						<TableHead>

@@ -19,6 +19,7 @@
 }
 .mainHeader {
 	display: flex;
+
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -26,8 +27,12 @@
 }
 .mainHeader h1,
 h3 {
-	padding: 0.5rem;
 	color: whitesmoke;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	margin: 0 1rem 0 1rem;
 }
 
 .popUpAlert {
@@ -70,6 +75,12 @@ h3 {
 	list-style: none;
 }
 
+@media screen and (max-width: 760px) {
+	.navBarLink {
+		width: 50%;
+	}
+}
+
 .navLink {
 	text-transform: uppercase;
 	text-decoration: none;
@@ -82,7 +93,6 @@ h3 {
 }
 .navLink:hover {
 	color: grey;
-
 	letter-spacing: 1.5x;
 }
 
