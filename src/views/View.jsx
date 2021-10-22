@@ -33,7 +33,7 @@ const ReadView = () => {
 				'Content-Type': 'application/json',
 			})
 			.then((res) => setIncomingData(res.data));
-	}, [incomingData]);
+	}, [deleted]);
 
 	/* delete Request which takes the id of the well.
 	if states 200 pop Up appears*/
