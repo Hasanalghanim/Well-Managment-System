@@ -125,7 +125,7 @@ redirects to main*/
 				direction='row'
 				justifyContent='center'
 				alignItems='center'>
-				<Grid container xs={12} direction='row' justifyContent='center'>
+				<Grid container direction='row' justifyContent='center'>
 					<WMSInput
 						error={requiredID}
 						required={true}
@@ -157,7 +157,7 @@ redirects to main*/
 						}}
 					/>
 				</Grid>
-				<Grid container xs={12} direction='row' justifyContent='center'>
+				<Grid container direction='row' justifyContent='center'>
 					<WMSInput
 						required={false}
 						label='Field'

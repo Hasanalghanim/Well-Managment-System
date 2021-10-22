@@ -33,6 +33,7 @@ const HistoryView = () => {
 		<>
 			<Grid
 				container
+				className='viewTable'
 				direction='column'
 				justifyContent='center'
 				alignItems='center'>
@@ -43,10 +44,9 @@ const HistoryView = () => {
 					component={Paper}
 					sx={{
 						maxWidth: 1000,
-						minWidth: 300,
+						minWidth: 100,
 						maxHeight: 500,
 						minHeight: 200,
-						mx: 2,
 					}}>
 					<Table stickyHeader>
 						<TableHead>

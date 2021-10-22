@@ -150,7 +150,7 @@ const UpdateView = () => {
 						direction='row'
 						justifyContent='center'
 						alignItems='center'>
-						<Grid container xs={12} direction='row' justifyContent='center'>
+						<Grid container direction='row' justifyContent='center'>
 							<WMSInput
 								value={inputValue.id}
 								error={requiredID}
@@ -186,7 +186,7 @@ const UpdateView = () => {
 								}}
 							/>
 						</Grid>
-						<Grid container xs={12} direction='row' justifyContent='center'>
+						<Grid container direction='row' justifyContent='center'>
 							<WMSInput
 								value={inputValue.field}
 								required={false}
