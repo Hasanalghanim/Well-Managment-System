@@ -37,7 +37,7 @@ const HistoryView = () => {
 				direction='column'
 				justifyContent='center'
 				alignItems='center'>
-				<div className='mainHeader'>
+				<div className='mainHeader historyHeader'>
 					<h1>You are currently checking history</h1>
 				</div>
 				<TableContainer
