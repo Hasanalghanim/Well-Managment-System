@@ -17,10 +17,10 @@ import HistoryIcon from '@mui/icons-material/History';
 import DeleteIcon from '@mui/icons-material/Delete';
 import Backdrop from '@mui/material/Backdrop';
 import CircularProgress from '@mui/material/CircularProgress';
-import PopUp from '../Components/PopUp';
+import WMSPopUp from '../Components/WMSPopUp';
 
 const ReadView = () => {
-	const [incomingData, SetIncomingData] = useState();
+	const [incomingData, setIncomingData] = useState();
 	const [deleteWarning, setDeleteWarning] = useState(false);
 	const [deleteId, setDeleteId] = useState();
 	const [deleted, setDeleted] = useState(false);
@@ -32,7 +32,7 @@ const ReadView = () => {
 			.get(url, {
 				'Content-Type': 'application/json',
 			})
-			.then((res) => SetIncomingData(res.data));
+			.then((res) => setIncomingData(res.data));
 	}, [incomingData]);
 
 	/* delete Request which takes the id of the well.
@@ -63,7 +63,7 @@ const ReadView = () => {
 
 	return (
 		<>
-			<PopUp
+			<WMSPopUp
 				onDelete={onDelete}
 				open={deleteWarning}
 				closed={() => setDeleteWarning(false)}
