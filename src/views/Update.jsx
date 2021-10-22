@@ -33,7 +33,7 @@ const UpdateView = () => {
 			.then((res) => {
 				setInputValue(res.data);
 			});
-	}, []);
+	}, [getUrl]);
 
 	/* any On change triggers which request, 
 	f === input name requesting, 

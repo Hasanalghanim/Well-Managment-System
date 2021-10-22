@@ -28,7 +28,7 @@ const HistoryView = () => {
 				'Content-Type': 'application/json',
 			})
 			.then((res) => SetIncomingData(res.data));
-	}, []);
+	}, [url]);
 	return (
 		<>
 			<Grid
