@@ -122,6 +122,7 @@ const UpdateView = () => {
 			<Box
 				component='span'
 				sx={{
+					mx: 5,
 					maxWidth: 800,
 					minHeight: 450,
 					mt: 20,
