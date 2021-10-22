@@ -23,7 +23,7 @@ A CRUD project to store Data for an Oil Company.
 
 ### Executing program
 
-* "NPM start to run program
+* "NPM start" to run program
 
 
 
